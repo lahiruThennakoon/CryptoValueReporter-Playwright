@@ -20,7 +20,8 @@ module.exports = defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     browserName:'chromium',
-    actionTimeout:30*1000
+    actionTimeout:30*1000,
+    headless:false
     
   },
 
